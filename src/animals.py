@@ -13,6 +13,9 @@ class Bird(Animal):
 
     def fly(self):
         pass
+class Cat(Animal):
+    noise = "meow"
+
 
 class Crow(Bird):
     noise = "CAW"
