@@ -17,6 +17,9 @@ class Bird(Animal):
 class Crow(Bird):
     noise = "CAW"
 
+class Chicken(Bird):
+    noise = "CLUCK"
+
 class Dog(Animal):
     noise = "BARK"
 
